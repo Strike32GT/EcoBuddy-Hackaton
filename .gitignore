@@ -1,0 +1,62 @@
+stitch_ecobuddy_ui_ux_design/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.log
+.idea/
+*.iml
+.vscode/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Node / NestJS
+node_modules/
+dist/
+coverage/
+.turbo/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Flutter / Dart
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub-cache/
+**/.pub/
+**/build/
+**/coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+**/app.*.symbols
+**/app.*.map.json
+
+# Android build outputs
+**/android/.gradle/
+**/android/local.properties
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# iOS / macOS generated files
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+
+# Generated plugin registrants
+**/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/macos/Flutter/GeneratedPluginRegistrant.swift
